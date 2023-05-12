@@ -5,7 +5,6 @@ description = "A Streamlit voice search demo using OpenAI Whisper, DuckDB, and M
 authors = ["Vikram Oberoi <voberoi@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "voice_search_with_whisper_duckdb_and_metaphone"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
