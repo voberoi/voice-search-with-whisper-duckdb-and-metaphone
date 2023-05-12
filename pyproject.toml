@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "voice-search-with-whisper-duckdb-and-metaphone"
+version = "0.1.0"
+description = "A Streamlit voice search demo using OpenAI Whisper, DuckDB, and Metaphone."
+authors = ["Vikram Oberoi <voberoi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "voice_search_with_whisper_duckdb_and_metaphone"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.22.0"
+duckdb = "^0.7.1"
+pyphonetics = "^0.5.3"
+jarowinkler = "^1.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
