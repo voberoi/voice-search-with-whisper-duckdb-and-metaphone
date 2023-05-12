@@ -12,6 +12,8 @@ streamlit = "^1.22.0"
 duckdb = "^0.7.1"
 pyphonetics = "^0.5.3"
 jarowinkler = "^1.2.3"
+streamlit-audiorecorder = "^0.0.2"
+openai = "^0.27.6"
 
 
 [build-system]
