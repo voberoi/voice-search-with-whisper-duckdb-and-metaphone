@@ -15,11 +15,20 @@ from index import (
 RESULTS_PER_QUERY_APPROACH = 10
 
 
+def get_connection():
+    return duckdb.connect(WINES_DUCKDB_PATH)
+
+
+def get_wines():
+    conn = get_connection()
+    return conn.sql("select * exclude (id) from wines").df()
+
+
 def get_top_k_matches(transcript, k=5):
     if transcript == "":
         return []
 
-    conn = duckdb.connect(WINES_DUCKDB_PATH)
+    conn = get_connection()
 
     # Lowercase the transcript, strip accents, ignore non-alphanumeric characters.
     transcript = normalize(transcript)
