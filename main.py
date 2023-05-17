@@ -29,10 +29,7 @@ st.set_page_config(page_title=title, layout="wide")
 
 st.title(title)
 st.write(
-    "This is a demo that accompanie [this blog post](https://vikramoberoi.com/helping-sommeliers-inventory-wine-faster-with-whisper-duckdb-and-metaphone/)."
-)
-st.write(
-    "Code for the demo is available [on Github](https://github.com/voberoi/voice-search-with-whisper-duckdb-and-metaphone)"
+    "This demo accompanies [this blog post](https://vikramoberoi.com/helping-sommeliers-inventory-wine-faster-with-whisper-duckdb-and-metaphone/). Code for this demo is available [on Github](https://github.com/voberoi/voice-search-with-whisper-duckdb-and-metaphone)"
 )
 st.divider()
 
