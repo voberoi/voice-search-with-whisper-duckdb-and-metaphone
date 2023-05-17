@@ -28,8 +28,12 @@ title = "Voice Search with OpenAI's Whisper, DuckDB, and the Metaphone Algorithm
 st.set_page_config(page_title=title, layout="wide")
 
 st.title(title)
-st.write("This is a demo that accompanies the following blog post: <link>.")
-st.write("Code for the demo is available here: <link>")
+st.write(
+    "This is a demo that accompanie [this blog post](https://vikramoberoi.com/helping-sommeliers-inventory-wine-faster-with-whisper-duckdb-and-metaphone/)."
+)
+st.write(
+    "Code for the demo is available [on Github](https://github.com/voberoi/voice-search-with-whisper-duckdb-and-metaphone)"
+)
 st.divider()
 
 audio = audiorecorder("Say a wine:", "Recording...")
