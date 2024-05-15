@@ -1,6 +1,7 @@
 # Voice search with OpenAI Whisper, DuckDB, and Metaphone
 
-This repository is a companion to [Helping sommeliers inventory wines faster with Whisper, DuckDB, and Metaphone](https://vikramoberoi.com/helping-sommeliers-inventory-wine-faster-with-whisper-duckdb-and-metaphone/). Read the blog post for an explanation of how this code works.
+This repository is a companion to [Using Metaphone to handle bad transcriptions in voice search for sommeliers
+](https://vikramoberoi.com/posts/using-metaphone-to-handle-bad-transcriptions-in-voice-search-for-sommeliers/). Read the blog post for an explanation of how this code works.
 
 This a Streamlit app. You can check it out on [Streamlit Cloud](https://voice-search-with-whisper-duckdb-and-metaphone.streamlit.app/).
 
